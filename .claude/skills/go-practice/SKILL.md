@@ -39,6 +39,7 @@ go run .          # 运行 main.go 的示例用例，人工核对输出
 
 ## Git 推送注意事项
 
+- 提交信息用中文，简明描述本次改动（如 `新增 XXX 题解`、`整理 README`）
 - 远端：`https://github.com/6xiancan/go-practice.git`，分支 `main`
 - 本机已配置全局代理（因为国内直连 GitHub 会被重置）：
   ```powershell
