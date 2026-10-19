@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	fmt.Println(sumCounts([]int{1, 2, 1}))
-	fmt.Println(sumCounts([]int{22, 14, 33, 7}))
-	fmt.Println(sumCounts([]int{18, 43, 34, 16}))
-	fmt.Println(sumCounts([]int{2, 4, 1, 3}))
+	fmt.Println(targetIndices([]int{1, 2, 5, 2, 3}, 2))
+	fmt.Println(targetIndices([]int{1, 2, 5, 2, 3}, 3))
+	fmt.Println(targetIndices([]int{1, 2, 5, 2, 3}, 5))
+	fmt.Println(targetIndices([]int{1, 2, 5, 2, 3}, 4))
 }
