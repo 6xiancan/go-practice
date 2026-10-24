@@ -5,8 +5,6 @@ import (
 )
 
 func main() {
-	fmt.Println(targetIndices([]int{1, 2, 5, 2, 3}, 2))
-	fmt.Println(targetIndices([]int{1, 2, 5, 2, 3}, 3))
-	fmt.Println(targetIndices([]int{1, 2, 5, 2, 3}, 5))
-	fmt.Println(targetIndices([]int{1, 2, 5, 2, 3}, 4))
+	fmt.Println(countDaysTogether("08-15", "08-18", "08-16", "08-19"))
+	fmt.Println(countDaysTogether("10-01", "10-31", "11-01", "12-31"))
 }
